@@ -1,6 +1,23 @@
 @media only screen and (max-width:1000px){
     body{background-color: rgb(231, 229, 229);}
-    .intro{
-        width: 80%;
-    }
+    .intro
+        {width: 80%;}
+}
+@media only screen and (max-width:800px){
+    body{background-color: rgb(190, 188, 188)}
+    .intro{width: 96%;} 
+    .card{width: 60%;
+    margin: 5% auto
+}
+.links{ 
+    width: 32.9%;
+    padding: 1em 0em;
+    text-align: center;
+}
+}
+@media only screen and (max-width:650px){
+    body{background-color: rgb(156, 153, 153);}
+    .links{width: 31%;}
+    .card{width: 80%;}
+    .intro_pg{font-size: 1.5em;}
 }
