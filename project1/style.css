@@ -1,7 +1,89 @@
-.title{
+*{box-sizing: border-box}
+html{
+    scroll-behavior: smooth;
+}
+.navBar{
+    background-color: beige;
+    color: black;
+    font-weight: 900;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.nav_link{
+    color: black;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: black;
+    background-color: azure;
+    font-weight: 500;
+}
+.title1{
     border-color: aliceblue;
     border-radius: 5px;
     background-color: rgb(208, 247, 247);
     padding: 2em;
     text-align: center;
 }
+.card1{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 50%;
+    display: block;
+    position: center;
+    margin-left: 5%;
+}
+.img_title1{
+    padding: 1em;
+    position: absolute;
+}
+.title2{
+    border-color: lavenderblush;
+    border-radius: 5px;
+    background-color: lavenderblush;
+    padding: 2em;
+    text-align: center;
+}
+.card2{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 100%;
+    display: block;
+    position: center;
+    margin-left: 5%;
+}
+.img_title2{
+    padding: 1em;
+    position: absolute;
+}
+.title3{
+    border-color: lavender;
+    border-radius: 5px;
+    background-color: lavender;
+    padding: 2em;
+    text-align: center;
+}
+.card3{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.img3{
+    width: 50%;
+    display: block;
+    position: center;
+    margin-left: 5%;
+}
+.img_title3{
+    padding: 1em;
+    position: absolute;
+}
+
